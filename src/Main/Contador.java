@@ -1,4 +1,4 @@
-package Dao;
+package Main;
 
 import Exceptions.ParametrosInvalidosException;
 import java.util.Scanner;
@@ -14,10 +14,12 @@ public class Contador {
         int parametroDois = terminal.nextInt();
 
          try {
-              int total = contar(parametroUm, parametroDois);
-             System.out.println(total);
+             int total = contar(parametroUm, parametroDois);
+             for (int mI = 1; mI <= total; mI++) {
+                 System.out.println("Imprimindo o número " + mI);
+             }
          } catch (ParametrosInvalidosException e) {
-             System.out.println("O segundo parâmetro é menor que o primeiro parâmetro.");
+                System.out.println("O segundo parâmetro deve ser maior que o primeiro.");
          }
     }
     static int contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {

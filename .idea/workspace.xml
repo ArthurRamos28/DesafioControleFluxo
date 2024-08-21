@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c8d190-4424-4aa7-bcc6-693a8ab0d591" name="Changes" comment="Iniciando projeto">
-      <change afterPath="$PROJECT_DIR$/src/Dao/Contador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ParametrosInvalidosException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="44c8d190-4424-4aa7-bcc6-693a8ab0d591" name="Changes" comment="Criado estrutura basica.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Contador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ParametrosInvalidosException.executor": "Run",
+    "Application.Contador.executor": "Debug",
+    "Application.ParametrosInvalidosException.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -53,11 +51,11 @@
   </component>
   <component name="RunManager" selected="Application.Contador">
     <configuration name="Contador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dao.Contador" />
+      <option name="MAIN_CLASS_NAME" value="Main.Contador" />
       <module name="DesafioControleFluxo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724204694773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criado estrutura basica.">
+      <option name="closed" value="true" />
+      <created>1724208893659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724208893659</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Criado estrutura basica.">
+      <option name="closed" value="true" />
+      <created>1724208992146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724208992146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +124,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="DesafioControleFluxo/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -118,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando projeto" />
+    <MESSAGE value="Criado estrutura basica." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado estrutura basica." />
   </component>
 </project>
